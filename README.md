@@ -19,32 +19,3 @@ Prerequisites
 
 Node.js (v14+)
 npm (v6+)
-
-1. Clone the Repository 
-    git clone https://github.com/your-username/task-manager.git
-    cd task-manager
-
-2. Install Dependencies
-    For the Backend:
-    cd task-manager-backend
-    npm install
-
-    For the Frontend:
-    cd ../task-manager-frontend
-    npm install
-
-3. Running the Application
-    Start the Backend Server
-    cd task-manager-backend
-    node app.js
-    The backend server will run on http://localhost:5000.
-
-    Start the Frontend
-    cd ../task-manager-frontend
-    npm start
-    The frontend will run on http://localhost:3000.
-
-4. Access the Application
-    Once both the frontend and backend are running, open your browser and go to:
-    http://localhost:3000
-
