@@ -1,0 +1,143 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Task Management Page Styles */
+  .task-management-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .task-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .task-card p {
+    font-size: 16px;
+    margin: 3px 0;
+  }
+  
+  .task-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-edit-button {
+    background-color: #007aff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-edit-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .task-delete-button {
+    background-color: #ff3b30;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .task-delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Edit Task Form */
+  .edit-task-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .save-task-button {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .save-task-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .cancel-edit-button {
+    background-color: #ccc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-edit-button:hover {
+    background-color: #999;
+  }
+
+.task-status-dropdown {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  
